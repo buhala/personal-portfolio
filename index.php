@@ -4,6 +4,10 @@
 <title>Христо Димитров | Портфолио</title>
 <meta charset="UTF-8">
 <link rel="stylesheet" type="text/css" href="css/style.css">
+<script src="js/jquery.js"></script>
+<script src="js/pageLoader.js"></script>
+<script src="js/bootstrap.js"></script>
+
 </head>
 <body>
 <div id="content">
@@ -12,7 +16,7 @@
 
 <hr>
 <div id="menu"><img src="img/about.png" width="30"><img src="img/contact.png" width="30"><img src="img/blog.png" width="30"></div>
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+<p id="page_content">Секунда... зарежда!</p>
 <br>
 <div id="footer">
     <a href="redirects.php?url=facebook"><img src="img/facebook.png" alt="Facebook" width="30"></a>
