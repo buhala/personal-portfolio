@@ -1,5 +1,5 @@
 <?php
-$mysqli=new mysqli('localhost','root','','portfolio');
+include 'mysql.php';
 switch($_GET['url']){
     case 'facebook':
         $url='http://facebook.com/buhala28';
