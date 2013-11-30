@@ -1,4 +1,6 @@
 <?php
+$mysqli=new mysqli('localhost','root','','portfolio');
+
 
 //This is here so I can implement logging later
 switch($_GET['url']){
@@ -9,9 +11,11 @@ switch($_GET['url']){
         $url='http://twitter.com/buhala_bg';
     break;
     case 'gplus':
-        $url='https://plus.google.com/u/0/104345094398956143468/posts'
+        $url='https://plus.google.com/u/0/104345094398956143468/posts';
     break;
-    case 'github'
+    case 'github':
         $url='http://github.com/buhala';
 }
-header('Location'.$url);
+$mysqli->query('INSERT INTO social_log(url,ip)
+    VALUES("'.$url.'","'.$_SERVER['REMOTE_ADDR'].'")');
+header('Location:'.$url);
