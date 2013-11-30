@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: 127.0.0.1
--- Generation Time: Nov 30, 2013 at 01:30 PM
+-- Generation Time: Nov 30, 2013 at 02:06 PM
 -- Server version: 5.5.32
 -- PHP Version: 5.4.16
 
@@ -34,14 +34,16 @@ CREATE TABLE IF NOT EXISTS `pages` (
   `url_name` varchar(8) CHARACTER SET latin1 NOT NULL,
   `text` text CHARACTER SET utf8 COLLATE utf8_general_mysql500_ci NOT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB  DEFAULT CHARSET=ucs2 COLLATE=ucs2_general_mysql500_ci AUTO_INCREMENT=2 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=ucs2 COLLATE=ucs2_general_mysql500_ci AUTO_INCREMENT=4 ;
 
 --
 -- Dumping data for table `pages`
 --
 
 INSERT INTO `pages` (`id`, `name`, `url_name`, `text`) VALUES
-(1, 'За мен', 'about', 'Аз съм програмист на свободна практика. Имам опит в много области.');
+(1, 'За мен', 'about', 'Аз съм програмист на свободна практика. Имам опит в много области.'),
+(2, 'Свържи се с мен!', 'contact', 'За връзка с мен има много методи, но няма да ви ги кажа!'),
+(3, 'Блог', 'blog', 'В момента все още работя по блога си, не знам кога ще е готов!');
 
 -- --------------------------------------------------------
 

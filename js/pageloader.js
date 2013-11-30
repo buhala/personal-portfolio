@@ -1,5 +1,6 @@
 
 function fetchInfo(page){
+		page=page.substring(1);
 		$.ajax({
 			'url':'json.php',
 			'cache':false,

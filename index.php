@@ -15,7 +15,11 @@
 <div id="slogan">Уеб разработчик на свободна практика</div>
 
 <hr>
-<div id="menu"><img src="img/about.png" width="30"><img src="img/contact.png" width="30"><img src="img/blog.png" width="30"></div>
+<div id="menu">
+	<a href="#about" title="За мен"><img src="img/about.png" width="30"></a>
+	<a href="#contact" title="Свържи се"><img src="img/contact.png" width="30"></a>
+	<a href="#blog" title="Блог"><img src="img/blog.png" width="30"></a>
+</div>
 <p id="page_content">Секунда... зарежда!</p>
 <br>
 <div id="footer">
