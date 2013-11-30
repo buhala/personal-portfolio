@@ -1,8 +1,5 @@
 <?php
 $mysqli=new mysqli('localhost','root','','portfolio');
-
-
-//This is here so I can implement logging later
 switch($_GET['url']){
     case 'facebook':
         $url='http://facebook.com/buhala28';
